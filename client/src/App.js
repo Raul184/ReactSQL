@@ -26,11 +26,8 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div>
-        {this.state.hello !== null && (
-        <ul>
-          {this.state.hello.map( el => <li key={el.id}>{el.title}</li>)}
-        </ul>)}
+      <div className="App">
+        hello world
       </div>
     )
   }
