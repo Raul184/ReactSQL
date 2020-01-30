@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const pool = require('../db');
 
-//@ Method    GET
-//@ Descr     Get All Posts
+//@ Method    POST
+//@ Descr     Register an User
 router.post(
   '/postUser' , 
   ( req, res , next ) => {
